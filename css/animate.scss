@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@keyframes flight {
+  0% {
+    top: 266px
+  }
+
+  40% {
+    top: 276px
+  }
+
+  100% {
+    top: 266px
+  }
+}
+@keyframes cloudmove {
+  0% {
+    background-position: 2000px 0
+  }
+
+  50% {
+    background-position: 0 0
+  }
+
+  100% {
+    background-position: -2000px 0
+  }
+}
+@keyframes y-ain {
+  0% {
+    transform: rotateY(0)
+  }
+
+  40% {
+    transform: rotateY(0)
+  }
+
+  100% {
+    transform: rotateY(360deg)
+  }
+}
+@keyframes arrowGo {
+  0% {
+    opacity: 1;
+    transform-origin: center center;
+    transform: translate(-50%,0);
+    bottom: 42px
+  }
+
+  50% {
+    opacity: .5;
+    transform-origin: center center;
+    transform: translate(-50%,0);
+    bottom: 36px
+  }
+
+  100% {
+    opacity: 1;
+    transform-origin: center center;
+    transform: translate(-50%,0);
+    bottom: 42px
+  }
+}
+
